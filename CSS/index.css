@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    background-color: rgb(243, 236, 236);
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    min-width: 1200px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: lightskyblue;
+    font-size: large;
+    border-width: 0px 0px 3px 0px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding-right: 10px;
+    height: fit-content;
+}
+
+nav a {
+    color: black;
+    font-style: oblique;
+    text-decoration-line: none;
+}
+
+nav a:hover {
+    color: rgb(84, 76, 76);
+    transition: ease-in;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    background-color: lightskyblue;
+    border-width: 3px 0px 0px 0px;
+    border-color: black;
+    border-style: solid;
+    font-size: 20px;
+}
+
+footer a {
+    color: black;
+    font-style: oblique;
+}
+
+footer a:hover {
+    color: rgb(84, 76, 76);
+    transition: ease-in;
+}
+
+hr {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    width: 75%;
+}
+
+p {
+    margin: 20px;
+}
+
+.page {
+    padding: 10px;
+}
+
+.list-grid {
+    display: grid;
+    grid-template-columns: 1;
+    gap: 10px;
+}
+
+.leadership-grid {
+    display: grid;
+    grid-template-columns: 1;
+    gap: 10px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1;
+    gap: 10px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.three-col {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 30px;
+}
+
+.one-col {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 30px;
+}
+
+.message {
+    width: 300px; 
+    height: 200px; 
+    display: block; 
+    margin-bottom: 10px;
+    resize: none;    
+}
+
+.submit {
+    font-family: 'Kanit', sans-serif;
+    background-color: salmon;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit:active {
+    background-color: rgb(255, 98, 81);
+}
+
+.image-flex {
+    display: flex;
+    position: relative;
+    gap: 100px;
+    justify-content: center;
+    height: 250px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#cason {
+    position: absolute;
+    border-radius: 10%;
+    border-style: ridge;
+}
+
+#wash {
+    position: absolute;
+    border-radius: 10%;
+    left: 150px;
+    border-style: ridge;
+}
+
+#chicago {
+    position: absolute;
+    right: 150px;
+    border-radius: 10%;
+    border-style: ridge;
+}
+
+.top-section {
+    background-color: rgb(190, 145, 142);
+    padding: 0 0 3px 10px;
+    text-align: center;
+}
+
+
+#programming-pic {
+    height: 215px;
+}
+
+#leadership-pic {
+    height: 150px;
+}
+
+#skills-pic {
+    width: max-content;
+    height: 200px;
+    padding-left: 5px;
+}
+
+.card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    border: 3px solid black;
+    background-color: rgb(202, 222, 234);
+    border-radius: 10px;
+    width: 325px;
+    color: black;
+}
+
+.leadership a {
+    color: #107896;
+    text-decoration-line: none;
+}
+
+.leadership a:hover {
+    color: #136a83;
+}
+
+.skills a {
+    color: #107896;
+    text-decoration-line: none;
+}
+
+.skills a:hover {
+    color: #107896;
+    text-decoration-line: none;
+}
